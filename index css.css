@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{  
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #456252;
+  background-size: 100%;
+  background-color: #E4D99E;
+}
+
+.Box1{
+ margin-top: 4%;
+}
+
+#Society{
+  text-align: center;
+  background-color: #EADFCF;
+  border-radius: 5%;
+  margin-left: 15%;
+  margin-right: 5%;
+  margin-top: 15%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+} 
+
+#Story, #Contact{
+  padding-top: 20%;
+  text-align: center;
+}
+
+#Contact{
+  padding-top: 20%;
+  text-align: center;
+}
+
+
+#pic1, #pic4{
+  text-align: center;
+  width: 100%;
+}
+
+#pic5{
+  text-align: center;
+  width: 50%;
+  border-radius: 5%;
+  color: #BF764C;
+  border: solid 5px #BF764C ;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 40pt;
+}
+
+#StoryDetail, #SocietyDetail{
+  font-size: 15pt;  
+}
+
+#ContactDetail{
+  font-size: 10pt ;
+}
+
+#SpanOrange{
+  color: #BF764C;
+  font-weight: bold;
+}
+
+#MapContact{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+dl{
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+dd{
+  font-weight: normal;
+  font-size: 10pt; ;
+}
+
+#iconLocation{
+  width: 5%;
+}
+
+#icon{
+  width: 3%;
+}
