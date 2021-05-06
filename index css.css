@@ -70,20 +70,14 @@ h1{
   margin-bottom: 10%;
 }
 
-dl{
-  font-size: 20pt;
+#Location{
   font-weight: bold;
+  font-size: 20pt;
+  text-align: center
 }
 
-dd{
+#ContactDetail{
   font-weight: normal;
-  font-size: 10pt; ;
-}
-
-#iconLocation{
-  width: 5%;
-}
-
-#icon{
-  width: 3%;
+  font-size: 15pt; ;
+  text-align: center
 }
