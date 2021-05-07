@@ -189,3 +189,37 @@ h1{
   font-size: 15pt; ;
   text-align: center
 }
+
+#line{
+  margin-left: 25%;
+}
+
+#MediaIconFB, #MediaIconYT, #MediaIconTW{
+  padding-left: 22%;
+}
+
+.footer-1{
+  background-color: #BF764C;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 20px;
+  text-align: center;
+}
+
+a:link
+{
+    color: whitesmoke;
+}
+a:visited
+{
+    color: #456252;
+}
+a:hover
+{
+    color:#E4D99E;
+}
+a:active
+{
+    color: black;
+}
