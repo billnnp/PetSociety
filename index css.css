@@ -5,10 +5,33 @@ body{
   color: #456252;
   background-size: 100%;
   background-color: #E4D99E;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  margin-left: 2%;
+  font-size: 30px;
+}
+#navbarNav {
+  background-color: #EADFCF;
+  opacity: 80%;
+}
+.container-fluid {
+  font-size: 30px;
+  background-color: #EADFCF;
+  opacity: 80%;
+  position: fixed;
+  z-index: 99;
+  top: 0;
 }
 
 .Box1{
  margin-top: 4%;
+}
+
+button{
+  background-image: url(./img/Rectangle\ 1.png);
 }
 
 #Society{
@@ -80,4 +103,38 @@ h1{
   font-weight: normal;
   font-size: 15pt; ;
   text-align: center
+}
+
+#line{
+  margin-left: 25%;
+}
+
+#MediaIconFB, #MediaIconYT, #MediaIconTW{
+  padding-left: 22%;
+}
+
+.footer-1{
+  background-color: #BF764C;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 20px;
+  text-align: center;
+}
+
+a:link
+{
+    color: whitesmoke;
+}
+a:visited
+{
+    color: #456252;
+}
+a:hover
+{
+    color:#E4D99E;
+}
+a:active
+{
+    color: black;
 }
