@@ -8,18 +8,112 @@ body{
 }
 
 .Box1{
- margin-top: 4%;
+ margin-top: 100px;
+}
+.navbar {
+  box-shadow: 1px 1px 5px black;
+  background-color: #e4d99e;
+  opacity: 90%;
+  width: 100%;
+  height: 10%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  padding-left: 7%;
+}
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+nav {
+  flex: 1;
+  padding-left: 600px;
+  padding-top: 20px;
+  
+}
+nav ul li {
+  text-align: center;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  list-style: none;
+  margin: 0px 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.BTlogin button {
+  border: none;
+  background: none;
+
+  width: 87px;
+  height: 39px;
+
+  border: 3px solid #BF764C;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+}
+.BTlogin button:hover{
+  background: #BF764C;
+}
+.BTsignup button {
+  border: none;
+
+  width: 87px;
+  height: 39px;
+
+  background: rgba(191, 118, 76, 0.56);
+  border: 3px solid #BF764C;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.BTsignup button:hover{
+  background-color: #BF764C;
+}
+.BTSIGNup button{
+  border: none;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 171px;
+  top: 556px;
+
+  background: #BF764C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  
+}
+.BTSIGNup button:hover{
+  background: #be6e40;
+  width: 210px;
+  height: 70px;
+  
+}
+.BTSIGNup button{
+  color: #456252;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20pt;
+  left: 20%;
+  top: 70%;
 }
 
 #Society{
-  text-align: center;
-  background-color: #EADFCF;
-  border-radius: 5%;
-  margin-left: 15%;
+  width: 100%;
+  margin-left: 10%;
   margin-right: 5%;
-  margin-top: 15%;
+  margin-top: 10%;
   padding-bottom: 10%;
-  padding-top: 10%;
+  
 } 
 
 #Story, #Contact{
@@ -31,12 +125,26 @@ body{
   padding-top: 20%;
   text-align: center;
 }
+#pic1{
 
+width: 813px;
+height: 682px;
+margin-left: -100px;
+margin-top: 30px;
+  /* text-align: center;
+  width: 100%; */
+  mix-blend-mode: darken;
 
-#pic1, #pic4{
+}
+#pic4{
+  width: 950px;
+  height: 659px;
+}
+
+/* #pic1, #pic4{
   text-align: center;
   width: 100%;
-}
+} */
 
 #pic5{
   text-align: center;
@@ -71,7 +179,7 @@ h1{
 }
 
 #Location{
-  font-weight: bold;
+  
   font-size: 20pt;
   text-align: center
 }
